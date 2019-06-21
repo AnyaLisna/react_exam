@@ -1,56 +1,68 @@
-# Іспит із React та Redux
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Розробіть додаток, який завантажуватиме імена авторів з [http://my-json-server.typicode.com/mate-academy/literary-blog/authors](http://my-json-server.typicode.com/mate-academy/literary-blog/authors) та дозволятиме редагувати їх: змінювати, видаляти та міняти їхнє розташування у списку.
+## Available Scripts
 
-## Workflow
+In the project directory, you can run:
 
-- Fork the repository with task
-- Clone forked repository 
-    ```bash
-    git clone git@github.com:<user_name>>/<task_repository>.git
-    ```
-- Run `npm install` to install dependencies.
-- Then develop
+### `npm start`
 
-## Development mode 
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-- Run `npm run start` to start `http-server` on `http://localhost:3000`
-    When you run server the command line window will no longer be available for 
-    writing commands until you stop server (`ctrl + c`). All other commands you 
-    need to run in new command line window.
-- Follow [HTML, CSS styleguide](https://mate-academy.github.io/style-guides/htmlcss.html)
-- Follow [the simplified JS styleguide](https://mate-academy.github.io/style-guides/javascript-standard-modified)
-- When you finished `Deploy on gh-pages`
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-## Deploy on gh-pages
+### `npm test`
 
-- Build the project
-  ```bash
-  $ npm run build
-  ```
-- Commit and push all recent changes
-  ```bash
-  $ git add .
-  $ git commit -m 'commit message'
-  $ git push origin master
-  ```
-- Execute `npm run deploy`. This command will push the `/build` folder to branch
-  `gh-pages` in your remote repository. 
-- Add links to your demo in readme.md.
-  - `[DEMO LINK](https://<your_account>.github.io/<repo_name>/)` - this will be a 
-  link to your index.html
-- Commit and push all recent changes again.
-- Create `Pull Request` from forked repo `(<branch_name>)` to original repo 
-(`master`).
-- Add a link at `PR` to Google Spreadsheets.
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Project structure
+### `npm run build`
 
-- `src/` - directory for css, js, image, fonts files
-- `build/` - directory for built pages
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-You should be writing code in `src/` directory.
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-### Demo link
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Add link here: `[DEMO LINK](https://<your_account>.github.io/<repo_name>/)`
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
